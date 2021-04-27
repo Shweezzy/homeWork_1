@@ -565,13 +565,6 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 728px) {
-
-    #header__phone,
-    .navbar img {
-        text-align: start;
-        margin-left: 5%;
-    }
-
     #newSeason {
         width: 100%;
     }
@@ -604,7 +597,19 @@ input[type="submit"]:hover {
     }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 471px) {
+
+    #header__info,
+    #header__phone,
+    #header__authorization {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar img {
+        margin: 0;
+    }
+
     #new-arrivals__title h1 {
         font-size: 80%;
     }
