@@ -1,0 +1,654 @@
+body {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 10%;
+    color: gray;
+    background: #000000;
+}
+
+
+#header__info {
+    width: 65%;
+    margin: auto;
+}
+
+#header__phone {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 16px;
+    color: #969696;
+    text-align: right;
+}
+
+#header__authorization {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: #0F0F0F;
+    width: 100%;
+    min-height: 80px;
+    height: auto;
+
+}
+
+.navbar img {
+    margin-left: 17%;
+}
+
+.navbar-toggler {
+    color: white;
+    margin-right: 15%;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #969696;
+    margin-top: 10px;
+}
+
+.navbar-toggler span {
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-right: 21.5%;
+}
+
+.nav-link {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #969696;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+#title {
+    width: 100%;
+    height: 810px;
+    background: url("./images/titleBackground.png");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#title p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 150%;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#title__logo {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#title__text {
+    width: 730px;
+    height: 96px;
+}
+
+
+#newSeason {
+    width: 54.2%;
+    height: 730px;
+    background: #000000;
+}
+
+#newSeason p {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180%;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 93px;
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 13%;
+    border: 0.1px solid #FFFFFF;
+}
+
+#newCollection {
+    width: 45.8%;
+    height: 730px;
+    background: url("./images/newCollectionBack.png");
+    background-position: revert;
+}
+
+.a {
+    width: 25%;
+    min-width: 150px;
+    margin: 0 2% 0 2%;
+}
+
+#product {
+    margin-top: 40%;
+    width: 100%;
+    height: 80%;
+    background: #191B1C;
+    text-align: center;
+    vertical-align: super;
+}
+
+#product img {
+    width: 100%;
+    height: 60%;
+    margin-top: 20%;
+}
+
+#product__text {
+
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 10%;
+    color: #FFFFFF;
+}
+
+#coll2018 {
+    width: 100%;
+    height: 600px;
+}
+
+#coll2018__photo {
+    width: 45.8%;
+    height: 600px;
+    background: url('./images/coll2018.png');
+    background-position: bottom;
+}
+
+#coll2018__title {
+    width: 54.2%;
+    height: 600px;
+    background: #000000
+}
+
+#coll2018__title h1 {
+    width: 100%;
+    height: 39px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+#coll2018__title span {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+#coll2018__title div {
+    width: 68%;
+    height: 173px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#coll2018__title p {
+    width: 68.5%;
+    height: 20%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    line-height: 33px;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 15%;
+}
+
+#coll2018__title p:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#new-arrivals__title {
+    width: 100%;
+    height: 48px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 8%;
+    color: #FFFFFF;
+}
+
+.arrivals {
+    width: 100%;
+    background: #000000;
+}
+
+.arrivals hr {
+    margin-top: 3%;
+    min-width: 190px;
+}
+
+#newArrivals {
+    margin-bottom: 5%;
+}
+
+.new-arrivals__products {
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 5%;
+    margin: auto;
+}
+
+#newArrivals__product {
+    width: 100%;
+    height: 300px;
+    background: #191B1C;
+
+}
+
+#newArrivals__product img {
+    width: 100%;
+    height: 60%;
+    margin-top: 25%;
+}
+
+#newArrivals__text {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 10%;
+    color: #FFFFFF;
+}
+
+#our-brands {
+    width: 100%;
+    height: 362px;
+    text-align: center;
+    background: #0F0F0F;
+    padding-top: 5%;
+}
+
+#our-brands p {
+    width: 100%;
+    height: 48px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-bottom: 2%;
+}
+
+#our-brands hr {
+    width: 7%;
+    min-width: 130px;
+}
+
+#our-brands__photo div {
+    width: 260px;
+    margin-top: 2%;
+    min-height: 100px;
+}
+
+#about-us {
+    width: 100%;
+    height: 400px;
+    padding-top: 7%;
+
+    background: url('./images/aboutUs.png');
+}
+
+#about-us div {
+    width: 25%;
+    margin: 1%;
+}
+
+#about-us h1 {
+    margin-bottom: 12%;
+
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#about-us__store {
+    width: 350px;
+    height: 147px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+#about-us__category {
+    width: 350px;
+}
+
+#about-us__category h1 {
+    margin-bottom: 12%;
+
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#categorys div {
+    width: auto;
+    text-align: center;
+    background-color: black;
+    margin: 0 8% 3% 0;
+    padding: 4%;
+
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #D0D0D0;
+}
+
+#categorys div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#about-us__delivery h1 {
+    margin-bottom: 12%;
+
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#about-us__delivery {
+    width: 350px;
+    height: 42px;
+
+
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 42px;
+    margin-top: 10%;
+
+    background-color: gray;
+    opacity: 0.7;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: 42px;
+    color: white;
+    background: #0F0F0F;
+    border: 0;
+
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70%;
+    line-height: 150%;
+
+    letter-spacing: 0.05em;
+
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.carousel-item {
+    background-color: #191B1C;
+}
+
+.toggleShowProduct {
+    margin-top: 15%;
+    height: fit-content;
+    display: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .toggleShowProduct {
+        display: block;
+    }
+
+    .navbar-nav {
+        margin: auto;
+    }
+
+    #navImg {
+        position: static;
+    }
+
+    .new-arrivals__products {
+        margin: 0;
+        width: 100%;
+    }
+
+    #adaptive {
+        display: none;
+    }
+
+    #header__phone {
+        text-align: center;
+    }
+
+    #title__logo img {
+        width: 50%;
+    }
+
+    #newArrivals {
+        margin: 0 2px 0 0;
+    }
+
+    .a {
+        display: none;
+    }
+
+    input[type="submit"],
+    input[type="text"] {
+        font-size: 50%;
+        padding-top: 2px;
+        height: 40%;
+    }
+
+    #about-us div {
+        font-size: 50%;
+    }
+
+    #about-us div h1 {
+        font-size: 100%;
+    }
+
+    .carousel-caption {
+        opacity: 0.7;
+    }
+
+    #coll2018__title p {
+        width: 100%;
+    }
+
+    #coll2018__photo {
+        background-position: bottom;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+
+    #header__phone,
+    .navbar img {
+        text-align: start;
+        margin-left: 5%;
+    }
+
+    #newSeason {
+        width: 100%;
+    }
+
+    #newCollection,
+    #coll2018__photo {
+        display: none;
+    }
+
+    #coll2018__title {
+        width: 100%;
+        background: url(./images/coll2018.png);
+        background-position: bottom;
+    }
+
+    #our-brands__photo {
+        justify-content: center;
+    }
+
+    #our-brands__photo div {
+        width: 34%;
+    }
+
+    #our-brands__photo div img {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        font-size: 4px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #new-arrivals__title h1 {
+        font-size: 80%;
+    }
+
+    #categorys {
+        padding: 3px;
+    }
+
+    .new-arrivals__products {
+        margin-top: 10%;
+    }
+
+    #newArrivals__product {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #newArrivals__text {
+        font-size: 100%;
+    }
+
+    #newArrivals {
+        width: 20%;
+        font-size: 60%;
+    }
+
+    #our-brands__photo {
+        margin-top: 15%;
+    }
+
+    #newArrivals__product img {
+        margin: 0;
+    }
+
+    #about-us {
+        font-size: 20px;
+    }
+
+    #coll2018__title p {
+        margin-top: 5%;
+    }
+
+    input[type="submit"] {
+        font-size: 25%;
+    }
+}
