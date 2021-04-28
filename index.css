@@ -268,7 +268,7 @@ hr {
 }
 
 #new-collection__item {
-    margin-top: 450px;
+    margin-top: 484px;
 }
 
 #product {
@@ -791,7 +791,7 @@ input[type="submit"]:hover {
     input[type="text"] {
         font-size: 100%;
         margin-top: 5%;
-        width: 25%;
+        width: auto;
         height: 20%;
     }
 }
@@ -799,6 +799,10 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 471px) {
     #new-arrivals__title h1 {
         font-size: 80%;
+    }
+
+    .navbar-toggler-icon {
+        width: auto;
     }
 
     #categorys {
@@ -830,5 +834,22 @@ input[type="submit"]:hover {
 
     #coll2018__title p {
         margin-top: 5%;
+    }
+
+    #show-collection2018 {
+        margin: auto;
+        width: auto;
+        padding: 0;
+        font-size: 80%;
+    }
+
+    #show-collection2018 p {
+        margin: auto;
+    }
+
+    input[type="submit"],
+    input[type='text'] {
+        font-size: 73%;
+        width: auto;
     }
 }
