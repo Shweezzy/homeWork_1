@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="http://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
@@ -16,7 +19,7 @@
 
 <body>
     <header id="header">
-        <div id="header__info" class="d-flex justify-content-between align-items-center">
+        <div id="header__info" class="d-flex justify-content-between">
             <div id="header__phone"> <img src="./images/phone.png" alt="phone"> &ensp;
                 8 (812) 123-45-67 <span id="adaptive"> &ensp;|&ensp; Работаем 7 дней в неделю &ensp;|&ensp; 9:00 —
                     18:00</span>
@@ -25,35 +28,35 @@
         </div>
 
     </header>
-    <nav class="navbar navbar-expand-lg">
-        <img id="porten" src="./images/PORTEN.png" alt="logo">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">Меню</span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto form-inline mt-2 mt-lg-0">
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">понравилось</a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">личный кабинет</a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">настройки</a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#"><img src="./images/basket.png" class="mb-1" alt="basket"></a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#"><img src="./images/search.png" class="mb-1" alt="search"></a>
-                </li>
-            </ul>
+    <div id="navbar" class="d-flex justify-content-between align-items-center">
+        <div>
+            <span id="porten">porten</span>
         </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">Меню</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <button>понравилось</button>
+                <button>личный кабинет</button>
+                <button>настройки</button>
+                <button id="navbar__basket"><img src="./images/basket.png" class="mb-1" alt="basket"></button>
+                <button id="navbar__search"><img src="./images/search.png" class="mb-1" alt="search"></button>
+
+            </div>
+        </nav>
+    </div>
+
     <section id="title" class="d-flex align-items-center justify-content-center flex-wrap">
-        <div id="title__logo"><img src="./images/logo.png" alt="logo"></div>
+        <div id="title__logo">
+            <div id="title__border">
+                <h1>PORTEN</h1>
+                <hr>
+                <p>санкт-петербург</p>
+            </div>
+        </div>
         <div id="title__text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est
                 tortor pulvinar ut
@@ -63,8 +66,8 @@
                 viverra.</p>
         </div>
     </section>
-    <section class="d-flex">
-        <div id="newSeason">
+    <section class="d-flex" id="all-collections">
+        <div id="new-season">
             <p>сезон 2020/21</p>
             <hr>
             <div id="products" class="d-flex flex-wrap justify-content-around">
@@ -109,7 +112,16 @@
             </div>
         </div>
 
-        <div id="newCollection"></div>
+        <div id="new-collection">
+            <div id="new-collection__item">
+                <h1>новая коллекция</h1>
+                <hr>
+                <div id="new-collection__catalog">
+                    <p>КАТАЛОГ</p>
+                </div>
+
+            </div>
+        </div>
     </section>
     <section>
         <div id="coll2018" class="d-flex">
@@ -117,7 +129,8 @@
             <div id="coll2018__title">
                 <h1>коллекция 2018</h1>
                 <hr>
-                <div><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut mattis habitant
+                <div id="coll2018__text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum
+                        ornare ut mattis habitant
                         dui
                         arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed
                         scelerisque magna consectetur. Amet convallis quis gravida facilisis vulputate. Faucibus
@@ -128,7 +141,10 @@
                         ullamcorper
                         scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra sed diam.
                     </span>
-                    <p>посмотреть коллекцию</p>
+                    <div id="show-collection2018">
+                        <p>посмотреть коллекцию</p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -147,7 +163,7 @@
         <hr>
         <div id="our-brands__photo" class="d-flex flex-wrap justify-content-center align-items-center"></div>
     </section>
-    <section id="about-us" class="d-flex justify-content-center">
+    <section id="about-us">
         <div id="about-us__store">
             <h1>о магазине</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc

@@ -6,7 +6,7 @@ let sectionProducts = document.querySelector('#products');
 function addProducts() {
     return `
     <div class="a">
-        <div id="product">
+        <div id="product" class="d-flex align-items-center">
         <img src="./images/clock.png" alt="clock"></div>
         <span id="product__text">Louis XVI ATHOS</span>
         <br>
